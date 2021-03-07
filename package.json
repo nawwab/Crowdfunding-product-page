@@ -4,16 +4,19 @@
   "description": "![Design preview for the Crowdfunding product page coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "node-sass -w scss/ -o css/ --recursive"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nawwab/cobaProject.git"
+    "url": "git+https://github.com/nawwab/Crowdfunding-product-page"
   },
-  "author": "",
+  "author": "Devs",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nawwab/cobaProject/issues"
+    "url": "https://github.com/nawwab/Crowdfunding-product-page/issues"
   },
-  "homepage": "https://github.com/nawwab/cobaProject#readme"
+  "homepage": "https://github.com/nawwab/cobaProject#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
 }
