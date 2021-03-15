@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap");
+main .introduction {
+  box-sizing: border-box;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+  background-color: #fff; }
+
+main .introduction div button {
+  border-radius: 50px;
+  background-color: #147b74;
+  color: #fff;
+  border: none; }
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Commissioner', sans-serif;
+  font-size: 16px; }
+
+header .jumbotron {
+  background: url("../images/image-hero-desktop.jpg") no-repeat center;
+  background-size: cover;
+  height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-sizing: border-box;
+  padding: 2.5rem 5rem; }
+  header .jumbotron nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end; }
+    header .jumbotron nav ul li {
+      margin-left: 40px;
+      color: #fff;
+      font-weight: 500; }
+      header .jumbotron nav ul li:hover {
+        cursor: pointer; }
+
+main {
+  margin: 0 25%; }
+  main .introduction {
+    display: grid;
+    justify-items: center;
+    margin-top: -100px;
+    position: relative; }
+    main .introduction > img {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: -25px; }
+    main .introduction h1 {
+      font-size: 26px;
+      margin: 1rem 0; }
+    main .introduction p {
+      margin: 0;
+      margin-bottom: 2rem;
+      color: #7a7a7a; }
+    main .introduction div {
+      width: 100%;
+      display: flex;
+      justify-content: space-between; }
